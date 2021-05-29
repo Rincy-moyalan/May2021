@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lobster',cursive ,sans-serif;
+}
+header{
+    background-image: url(images/pottery.webp);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    color: whitesmoke;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none;
+    padding: 5px 20px;
+    border:1px solid #fff;
+    margin: 15px;
+    transition:0.5s,ease;
+    color:white;
+}
+ul li a:hover{
+    background-color: rgb(17, 14, 14);
+}
+.title{
+    position: absolute;
+    left:15px;
+    top: 5px;
+    color: whitesmoke ;
+    font-size:20px;
+}
+.title:hover{
+    opacity: 0.5;
+    color:cornsilk;
+}
+.explore{
+    position:absolute;
+    top:80%;
+    left:80%;
+    padding: 20px;
+    margin: 0.5em;
+    border: 1px solid;
+    color:whitesmoke;
+    font-size:18px;
+}
+.explore:hover{
+    background-color: rgb(17, 14, 14);
+}
+
+@media only screen and (min-width:480px)
+{   
+    .title{
+        font-size:0.5px;
+        position: absolute;
+        left:15px;
+        top: 15px;
+        color: whitesmoke ;
+        font-size: 20px;
+    }
+    .title:hover{
+        opacity: 0.5;
+        color:cornsilk;
+    }
+    
+}
+.about h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.about {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:5;
+    width: 45%;
+    padding:40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rbga(0,0,0,0.3);
+    color:rgb(43, 37, 37);
+    font-weight:bold;
+    border:10px inset rgb(29, 25, 25);
+    }
+    .about p{
+        padding:0 8%;
+        
+    }
